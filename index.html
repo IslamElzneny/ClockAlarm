@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock Alarm</title>
+    <link rel="stylesheet" href="./main_CSS.css">
+</head>
+<body>
+    
+    <div class="container_section_clock">
+
+        <div class="clock_time_section">
+            <img src="	https://codingnepalweb.com/demos/alarm-clock-javascript/files/clock.svg" alt="clock">
+            <div class="time_clock">
+                <h1 id="timer">00:00:00 AM</h1>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="hour_section">
+                <select>
+                    <option value="hour" selected disabled hidden>Hour</option>
+                </select>
+            </div>
+            <div class="minute_section">
+                <select>
+                    <option value="minute" selected disabled hidden>Minute</option>
+                    <option value="00">00</option>
+                </select>
+            </div>
+            <div class="selection_time_day">
+                <select>
+                    <option value="AM/PM" selected disabled hidden>AM/PM</option>
+                    <option value="AM">AM</option>
+                    <option value="PM">PM</option>
+                </select>
+            </div>
+        </div>
+        
+        <div class="creation_alart">
+            <button>Set Alart</button>
+        </div>
+
+    </div> 
+<script src="./main_JS.js"></script>
+</body>
+</html>
